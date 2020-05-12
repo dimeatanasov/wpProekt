@@ -1,0 +1,28 @@
+Dime Atanasov, 171241 seminarska po predmetot Veb programiranje na FINKI.
+Temata e izrabotka na proekt vo koj so ke mozime da gi vidime site hoteli za koj sto vodime evidencija, 
+kako i site vraboteni, gosti, rezervacii i sobi vo toj hotel.
+
+GET 
+http://localhost:8081/api/hotels 
+http://localhost:8081/api/rooms 
+http://localhost:8081/api/guests 
+http://localhost:8081/api/reservations 
+http://localhost:8081/api/workers 
+GET By ID 
+http://localhost:8081/api/hotels/{hotelId} 
+http://localhost:8081/api/rooms/{roomId} 
+http://localhost:8081/api/guests/{guestId} 
+http://localhost:8081/api/reservations/{reservationId} 
+http://localhost:8081/api/workers/{workerId} 
+POST 
+http://localhost:8081/api/hotels 
+http://localhost:8081/api/rooms 
+http://localhost:8081/api/guests 
+http://localhost:8081/api/reservations 
+http://localhost:8081/api/workers 
+DELETE 
+http://localhost:8081/api/hotels/{hotelId} 
+http://localhost:8081/api/rooms/{roomId} 
+http://localhost:8081/api/guests/{guestId} 
+http://localhost:8081/api/reservations/{reservationId} 
+http://localhost:8081/api/workers/{workerId}
